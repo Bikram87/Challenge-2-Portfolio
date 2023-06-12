@@ -8,26 +8,26 @@
     <title>Bikram's Portfolio</title>
 </head>
 <body>
-<header>
+ <header>
     <section>
     <h1 class="myname">Bikram Singh</h1>
     </section>
-    <nav>
+      <nav>
         <ul>
-            <li>About Me</li>
-            <li>Work</li>
-            <li>Contact Me</li>
+            <li><a href="#section1">About Me</a></li>
+            <li><a href="#section2">Work</a></li>
+            <li><a href="#section3">Contact Me</a></li>
             <li>Resume</li>
         </ul>
-    </nav>
+      </nav>
     <section>
         <img class="cover" src="./Assets/photo-boards-KZNTEn2r6tw-unsplash.jpg" alt="Toronto Skyline">
         <h2>Full Stack Developer, Toronto</h2>
         <img class=bikram src="./Assets/Bikram.jpeg" alt="Bikram's picture">
     </section>
-</header>
-<main>
-    <section class="upper-section">
+ </header>
+ <main> <!--'About me' section has been called 'Upper Section'-->
+    <section id="section1" class="upper-section">
         <section class="upper-left">
             <h3 class="heading-upper">About Me</h3>
         </section>
@@ -37,8 +37,8 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus distinctio dolore nam ipsa ad pariatur. Doloribus laudantium aperiam consequatur praesentium corporis eaque. At deleniti neque aspernatur nemo blanditiis ea quia.
             </p>
         </section>
-    </section>
-    <section class="middle-section">
+    </section> <!--'Work' section has been called 'Middle Section'-->
+    <section id="section2" class="middle-section">
         <section class="middle-left">
             <h3 class="heading-middle">Work</h3>
         </section>
@@ -50,36 +50,21 @@
             <img class="image" src="./Assets/ugur-akdemir-FABH5NJEMGM-unsplash.jpg">
         </section>
     </section>
-    <section class="lower-section">
-        <section class="lower-left">
-            <h3 class="heading-lower">Contact<br> Me</h3>
-        </section>
-        <nav class="lower-right">
-            <ul>
-                <li>1-647-834-8474</li>
-                <li>bik.gahir@gmail.com</li>
-                <li>Twitter</li>
-                <li>Github</li>
-                <li>Spotify</li>
-                <li>Instagram</li>
-            </ul>
-
-        </nav>
-
+ </main> 
+ <footer id="section3" class="footer"><!--'Contact me' section has been called 'Footer'-->
+    <section class="lower-left">
+        <h3 class="heading-lower">Contact<br> Me</h3>
     </section>
-
-
-    </main>
-
-
-
-
-        </section>
-
-
-    </section>
-    
-</main>
-    
+    <nav>
+        <ul>
+            <li>1-647-834-8474</li>
+            <li>bik.gahir@gmail.com</li>
+            <li>Twitter</li>
+            <li><a id="github-link" href="https://github.com/Bikram87">Github</a></li>
+            <li>Spotify</li>
+            <li>Instagram</li>
+        </ul>
+    </nav>
+ </footer>   
 </body>
 </html>
